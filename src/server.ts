@@ -69,10 +69,10 @@ async function start() {
         console.log("Webhook URL:", process.env.DISCORD_WEBHOOK_URL); // debug
 
 
-        await notifyDiscord(`✅ Auth server online on \`${host}:${port}\``);
+        await notifyDiscord(`✅ Arsha server online on \`${host}:${port}\``);
     } catch (e) {
         fastify.log.error(e);
-        await notifyDiscord(`🔴 Auth server failed to start: \`${e}\``);
+        await notifyDiscord(`🔴 Arsha server failed to start: \`${e}\``);
         process.exit(1);
     }
 }
