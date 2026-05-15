@@ -1,0 +1,1 @@
+Welcome to the Arsha Backend this is pretty much the public portion of what the arsha backend will be built from. this is version `1` and only version 1 will be available to the public all future versions for production will be close sourced
